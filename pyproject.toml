@@ -1,0 +1,10 @@
+[tool.autopep8]
+max_line_length = 100
+in_place = true
+aggressive = 2
+recursive = true
+
+[tool.isort]
+profile = "black"
+line_length = 100
+multi_line_output = 3

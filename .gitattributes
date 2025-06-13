@@ -1,0 +1,28 @@
+# Handle line endings automatically for text files
+* text=auto
+
+# Explicitly declare text files we want to normalize to LF
+*.js      text eol=lf
+*.jsx     text eol=lf
+*.ts      text eol=lf
+*.tsx     text eol=lf
+*.py      text eol=lf
+*.json    text eol=lf
+*.yaml    text eol=lf
+*.yml     text eol=lf
+*.css     text eol=lf
+*.scss    text eol=lf
+*.md      text eol=lf
+*.html    text eol=lf
+*.sh      text eol=lf
+*.sql     text eol=lf
+
+# Treat these files as binary
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.ico     binary
+*.pdf     binary
+*.exe     binary
+*.dll     binary

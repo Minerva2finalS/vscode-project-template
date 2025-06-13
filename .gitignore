@@ -1,0 +1,71 @@
+#------------------------------------------------------------
+# General
+*~
+*.swp
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.idea/
+.vscode/
+
+#------------------------------------------------------------
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / dist
+dist/
+build/
+.parcel-cache/
+coverage/
+.turbo/
+.next/
+.expo/
+
+#------------------------------------------------------------
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.eggs/
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+htmlcov/
+
+#------------------------------------------------------------
+# Logs & databases
+*.log
+*.sqlite
+*.sqlite3
+logs/
+*.db
+*.csv
+
+#------------------------------------------------------------
+# OS generated
+.Trash-*
+.AppleDouble
+.LSOverride
+
+#------------------------------------------------------------
+# Docker
+**/.docker
+docker-compose.override.yml
+
+#------------------------------------------------------------
+# Misc
+*.bak
+*.tmp
+*.temp
+*.old
